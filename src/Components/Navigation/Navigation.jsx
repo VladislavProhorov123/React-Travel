@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Navigation.css";
 import logo from "/src/assets/Logo.svg";
-import bg_img from "/src/assets/Decore.png";
 
 export default function Navigation() {
   const [language, setLanguage] = useState("en");
@@ -37,8 +36,6 @@ export default function Navigation() {
           <option value="ua">UA</option>
         </select>
       </div>
-      
-          <img src={bg_img} alt="" className="bg-img" />
     </nav>
     
   );

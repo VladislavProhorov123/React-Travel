@@ -1,4 +1,95 @@
 .hero {
     height: 100vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    justify-content: space-between;
+}
+
+.bg-img {
+    position: absolute;
+    top: -150px;
+    right: -160px;
+    z-index: -10;
+}
+
+.hero-img_girl {
+    width: 650px;
+}
+
+.left-box h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 0.9;
+    max-width: 400px;
+    position: relative;
+    margin-bottom: 10px;
+    color: #181E4B;
+}
+
+.line-text {
+    position: absolute;
+    top: 50px;
+    right: -170px;
+    z-index: -10;
+}
+
+.left-box h3 {
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.left-box p {
+    color: #5E6282;
+    margin-bottom: 20px;
+}
+
+.left-box_btn {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+
+.left-box_btn button {
+    background: #F1A501;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 18px 26px;
+}
+
+.playlist-btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.circle {
+    background: #DF6951;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ri-play-large-fill {
+    color: #fff;
+}
+
+.playlist-btn p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #686D77;
 }

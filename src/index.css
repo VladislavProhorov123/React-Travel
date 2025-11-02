@@ -7,6 +7,10 @@
   font-family: "Manrope", sans-serif;
 }
 
+body {
+    /* overflow: hidden; */
+}
+
 nav,
 ul,
 li,
@@ -18,4 +22,9 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    font-size: 16px;
 }
