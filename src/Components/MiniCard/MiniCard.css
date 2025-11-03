@@ -1,0 +1,59 @@
+.mini-card {
+  width: 260px;
+  height: 130px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  display: flex;
+  padding: 18px 20px;
+  background: #fff;
+  border-radius: 18px;
+  
+}
+
+.mini-card_img {
+  width: 50px;
+  height:50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mini-card-info .mini-card_subtext {
+    font-size: 14px;
+    color: #84829A;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.mini-card-info h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #080809;
+    margin-bottom: 6px;
+}
+
+.completed {
+    color: #8A79DF;
+}
+
+.mini-card-info p {
+    color: #080809;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.box-line {
+    height: 5px;
+    width: 150px;
+    background: #F5F5F5;
+    position: relative;
+    border-radius: 30px;
+}
+
+.line {
+    position: absolute;
+    background: #8A79DF;
+    height: 5px;
+    width: 60px;
+    border-radius: 30px;
+}

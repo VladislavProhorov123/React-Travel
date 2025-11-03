@@ -1,0 +1,39 @@
+.book-step {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 120px;
+}
+
+.list-step  {
+    max-width: 500px;
+}
+
+.step-subtext {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: #5E6282;
+}
+.step-text {
+    color: #14183E;
+    font-size: 50px;
+    font-weight: 800;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.big-card {
+    z-index: 1;
+}
+
+.step-right {
+    position: relative;
+}
+
+.mini-card {
+    position: absolute;
+    top: 70px;
+    z-index: 10;
+    right: -170px;
+}
