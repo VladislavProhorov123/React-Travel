@@ -10,6 +10,10 @@ import list2 from "/src/assets/list2.svg";
 import list3 from "/src/assets/list3.svg";
 import greece from "/src/assets/greece.jpg";
 import miniRome from "/src/assets/miniRome.jpg";
+import people1 from '/src/assets/men1.jpg'
+import people2 from '/src/assets/men2.jpg'
+import people3 from '/src/assets/women1.jpg'
+
 
 export const SERVICES = [
   {
@@ -101,3 +105,28 @@ export const MINI_CARD = [
     completed: "40%",
   },
 ];
+
+export const REVIEWS = [
+  {
+    id: 8,
+    img: people1,
+    name: "Mike Taylor",
+    city: "Lahore, Pakistan",
+    text: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next.",
+  },
+  {
+    id: 9, 
+    img: people2,
+    name: "Chris Thomas",
+    city: "CEO of Red Button",
+    text: "Satisfied conveying a dependent contented he gentleman agreeable do be. Warrant private blushes removed an in equally totally if.",
+  },
+  {
+    id: 10,
+    img: people3,
+    name: "Sophia Lee",
+    city: "New York, USA",
+    text: "The best trip planning experience! I highly recommend this service for easy travel organization.",
+
+  }
+]

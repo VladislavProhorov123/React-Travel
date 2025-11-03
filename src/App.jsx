@@ -5,6 +5,7 @@ import CardList from './Components/CardList/CardList'
 import CardCity from './Components/CardCity/CardCity'
 import CityList from './Components/CityList/CityList'
 import Book from './Components/BookStep/Book'
+import ReviewList from './Components/ReviewList/ReviewList'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Title subtitle='Top Selling' title='Top Destinations' />
       <CityList />
       <Book />
+      <ReviewList />
     </div>
   )
 }
