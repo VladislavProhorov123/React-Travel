@@ -7,6 +7,7 @@ import CityList from './Components/CityList/CityList'
 import Book from './Components/BookStep/Book'
 import ReviewList from './Components/ReviewList/ReviewList'
 import Logo from './Components/Logo/Logo'
+import Form from './Components/Form/Form'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Book />
       <ReviewList />
       <Logo />
+      <Form />
     </div>
   )
 }
