@@ -6,6 +6,7 @@ import CardCity from './Components/CardCity/CardCity'
 import CityList from './Components/CityList/CityList'
 import Book from './Components/BookStep/Book'
 import ReviewList from './Components/ReviewList/ReviewList'
+import Logo from './Components/Logo/Logo'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <CityList />
       <Book />
       <ReviewList />
+      <Logo />
     </div>
   )
 }

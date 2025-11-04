@@ -10,10 +10,14 @@ import list2 from "/src/assets/list2.svg";
 import list3 from "/src/assets/list3.svg";
 import greece from "/src/assets/greece.jpg";
 import miniRome from "/src/assets/miniRome.jpg";
-import people1 from '/src/assets/men1.jpg'
-import people2 from '/src/assets/men2.jpg'
-import people3 from '/src/assets/women1.jpg'
-
+import people1 from "/src/assets/men1.jpg";
+import people2 from "/src/assets/men2.jpg";
+import people3 from "/src/assets/women1.jpg";
+import logo1 from "/src/assets/logo1.svg";
+import logo2 from "/src/assets/logo2.svg";
+import logo3 from "/src/assets/logo3.svg";
+import logo4 from "/src/assets/logo4.svg";
+import logo5 from "/src/assets/logo5.svg";
 
 export const SERVICES = [
   {
@@ -115,7 +119,7 @@ export const REVIEWS = [
     text: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next.",
   },
   {
-    id: 9, 
+    id: 9,
     img: people2,
     name: "Chris Thomas",
     city: "CEO of Red Button",
@@ -127,6 +131,7 @@ export const REVIEWS = [
     name: "Sophia Lee",
     city: "New York, USA",
     text: "The best trip planning experience! I highly recommend this service for easy travel organization.",
+  },
+];
 
-  }
-]
+export const LOGO = [logo1, logo2, logo3, logo4, logo5];

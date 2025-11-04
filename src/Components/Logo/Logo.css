@@ -1,0 +1,27 @@
+.logo-list_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.4s ;
+}
+
+.logo-list {
+  margin-bottom: 120px;
+}
+
+.list-item:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
