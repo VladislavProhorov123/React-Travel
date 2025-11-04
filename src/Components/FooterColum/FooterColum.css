@@ -1,0 +1,16 @@
+.footer-colum h3 {
+    font-size: 20px;
+    color: #080809;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.column-link {
+    margin-bottom: 5px;
+}
+
+.column-link a {
+    font-size: 18px;
+    color: #5E6282;
+    font-weight: 600;
+}

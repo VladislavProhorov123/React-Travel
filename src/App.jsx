@@ -8,6 +8,7 @@ import Book from './Components/BookStep/Book'
 import ReviewList from './Components/ReviewList/ReviewList'
 import Logo from './Components/Logo/Logo'
 import Form from './Components/Form/Form'
+import Footer from './Components/Footer/Footer'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <ReviewList />
       <Logo />
       <Form />
+      <Footer />
     </div>
   )
 }

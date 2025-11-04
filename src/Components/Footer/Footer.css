@@ -1,0 +1,90 @@
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info {
+  max-width: 240px;
+}
+
+.footer-info h2 {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 600;
+  color: #181e4b;
+}
+
+.footer-info p {
+  color: #5e6282;
+  font-weight: 500;
+}
+
+.police {
+  margin: 60px;
+  text-align: center;
+  color: #5e6282;
+  font-size: 14px;
+}
+
+.social-icon-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-icon-circle {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 41px;
+  height: 41px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.social-app-text {
+    font-size: 18px;
+    color: #5e6282;
+    font-weight: 600;
+}
+
+.social-button-box {
+    display: flex;
+    gap: 20px;;
+}   
+
+.social-button-box button {
+    background: #080809;
+    border-radius: 26px;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    
+}
+
+.social-button-box button i {
+    margin-right: 8px;
+}
+
+.button-info {
+
+}
+
+.button-last-text {
+    font-size: 12px;
+}
+
+.button-main-text {
+    font-size: 8px;
+    font-weight: 700;
+}
